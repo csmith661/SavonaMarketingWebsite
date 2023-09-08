@@ -1,9 +1,9 @@
 import Image, { StaticImageData } from 'next/image'
 import {ParallaxBanner} from 'react-scroll-parallax'
 import { IlluminationAnimation } from './IlluminationAnimation'
-import { companyName } from '@/app/page'
 
 export function ParallaxBannerComponent(){
+    const companyName = "S-Savy Marketing Co."
 
 
     return(

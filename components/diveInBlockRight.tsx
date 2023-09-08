@@ -1,6 +1,8 @@
 import { RightInViewAnimation } from "./RightInViewAnimation";
 import  Image  from "next/image"
 
+//changes
+
 export function  DiveInBlockRight(props: {entryTitle: string, description: string, buttonText: string, imagePath: string}){
     const {entryTitle, description, imagePath, buttonText} = props
     return(<div className="flex justify-center items-center row-span-3">

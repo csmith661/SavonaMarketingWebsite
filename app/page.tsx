@@ -7,9 +7,8 @@ import { FrontPageSectionWrapper } from '@/components/FrontPageSectionWrapper'
 import { DiveInBlockLeft } from '@/components/diveInBlockLeft'
 import { DiveInBlockRight } from '@/components/diveInBlockRight'
 
-export const companyName = "S-Savy Marketing Co."
-
 export default function Home() {
+  const companyName = "S-Savy Marketing Co."
   return (
     <main className="overflow-hidden font-mono">
       <NavigationBar/>
