@@ -1,11 +1,9 @@
-import NavigationBar from '@/components/Navigation'
 
-import Link from 'next/link'
 import { Header } from './page.header'
 import { IlluminationAnimation } from '@/components/IlluminationAnimation'
 import { FrontPageSectionWrapper } from '@/components/FrontPageSectionWrapper'
-import { DiveInBlockLeft } from '@/components/DiveInBlockLeft'
-import { DiveInBlockRight } from '@/components/DiveInBlockRight'
+import { DiveInBlockLeft } from '../components/DiveInBlockLeft'
+import { DiveInBlockRight } from '../components/DiveInBlockRight'
 
 export default function Home() {
 
