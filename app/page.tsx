@@ -4,14 +4,13 @@ import Link from 'next/link'
 import { Header } from './page.header'
 import { IlluminationAnimation } from '@/components/IlluminationAnimation'
 import { FrontPageSectionWrapper } from '@/components/FrontPageSectionWrapper'
-import { DiveInBlockLeft } from '@/components/diveInBlockLeft'
-import { DiveInBlockRight } from '@/components/diveInBlockRight'
+import { DiveInBlockLeft } from '@/components/DiveInBlockLeft'
+import { DiveInBlockRight } from '@/components/DiveInBlockRight'
 
 export default function Home() {
-  const companyName = "S-Savy Marketing Co."
+
   return (
-    <main className="overflow-hidden font-mono">
-      <NavigationBar/>
+    <>
       <Header/>
 
       <FrontPageSectionWrapper colorTailwind={'bg-secondary/25'}>
@@ -35,7 +34,6 @@ export default function Home() {
 
       {/* <article>Recent Posts</article> */}
 
-      <footer className="h-48 bg-color flex justify-center items-center"><div>Copyright 2023 {companyName}</div></footer>
-    </main>
+      </>
   )
 }

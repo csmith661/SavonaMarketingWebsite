@@ -15,7 +15,7 @@ export function  DiveInBlockRight(props: {entryTitle: string, description: strin
             <div className="text-center">
               <h5 className='text-xl font-semibold'>{entryTitle}</h5>
               <p className='p-4'>{description}</p>
-              <button className="p-2 transition hover:scale-110 active:translate-y-0.5  bg-primary text-white rounded-lg">{buttonText}</button>
+              <button className="p-2 transition select-none active:scale-90 md:hover:scale-110 lg:hover:scale-110 md:active:translate-y-0.5 lg:active:translate-y-0.5  bg-primary text-white rounded-lg">{buttonText}</button>
             </div>
           </RightInViewAnimation>
         </div>
