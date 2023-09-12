@@ -1,7 +1,6 @@
 "use client"
 import Link from "next/link";
-import React, { useMemo, useState } from "react";
-import { useRouter } from "next/navigation";
+import { useMemo, useState } from "react";
 
 export default function NavigationBar(){
     const [selectedMenuItem, setSelectedMenuItem] = useState<string>("/")

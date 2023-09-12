@@ -13,11 +13,11 @@ export function Carousel(props: {imagesArray: StaticImageData[]}){
     const onSelect = useCallback((emblaApi: EmblaCarouselType)=>{
         const selected = emblaApi.selectedScrollSnap()
         setSelectedImageIndex(selected)
-    },[emblaApi])
+    },[])
 
     useEffect(()=>{
         if(emblaApi) emblaApi.on('select', onSelect)
-    }, [emblaApi?.selectedScrollSnap()])
+    }, [emblaApi, onSelect])
 
     return(
     <div className='relative w-full h-full'>
