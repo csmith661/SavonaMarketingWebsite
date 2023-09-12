@@ -1,5 +1,5 @@
-import { LeftInViewAnimation } from "./LeftInViewAnimation";
 import  Image  from "next/image"
+import { LeftInViewAnimation } from "./LeftInViewAnimation"
 
 export function  DiveInBlockLeft(props: {entryTitle: string, description: string, buttonText: string, imagePath: string}){
     const {entryTitle, description, imagePath, buttonText} = props

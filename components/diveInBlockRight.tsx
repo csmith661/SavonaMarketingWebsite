@@ -1,5 +1,5 @@
-import { RightInViewAnimation } from "./RightInViewAnimation";
 import  Image  from "next/image"
+import { RightInViewAnimation } from "./RightInViewAnimation"
 
 export function  DiveInBlockRight(props: {entryTitle: string, description: string, buttonText: string, imagePath: string}){
     const {entryTitle, description, imagePath, buttonText} = props
