@@ -7,9 +7,9 @@ export default function Page(){
         <FrontPageSectionWrapper colorTailwind={'bg-primary/25'}>
         <div className="text-3xl font-bold flex justify-center items-center pb-8"><h4>Our Services</h4></div>
         
-        <DiveInBlockLeft entryTitle='Enterprise-Grade Website Services' description='Professional, attractive website design. Full-stack solutions that satisfy your needs.' imagePath="/code.jpg" buttonPath="/web-development" buttonText='View Portfolio' />
+        <DiveInBlockLeft entryTitle='Marketing' description='Marketing designed to empower your business. We offer direct mailing expertise, socials, and other marketing consulting' imagePath="/social.jpg" buttonPath="/mailers" buttonText='View Portfolio' />
         
-        <DiveInBlockRight entryTitle='Search Engine Optimization: To Get Discovered' description='Utilize our SEO packages to unlock quick, organic views. Placement on the front page of Google is ciritcal to your mission/s objectives, and we can help. ' buttonPath="/services" buttonText='Find Out More' imagePath='/metrics.jpg'/>
+        <DiveInBlockRight entryTitle='Web Development' description='Professional, attractive website design. Full-stack solutions that satisfy your needs. ' buttonPath="/web-development" buttonText='View Portfolio' imagePath='/code.jpg'/>
        
       </FrontPageSectionWrapper>
     )

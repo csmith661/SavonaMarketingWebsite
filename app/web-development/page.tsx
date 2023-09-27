@@ -23,7 +23,6 @@ export default function Page(){
         <section className="bg-secondary w-full h-full p-4 flex flex-col gap-4 items-center justify-center">
             <h2>About Our Developer</h2>
             <div className='text-center flex justify-content items-center flex-col gap-2'>
-                <Image className="h-48 w-36" src={computer} alt="Connor Smith"/>
                 <h3 >Connor Smith</h3>
                 <p className='text-xs'>Connor is a Typescript, React, and Node Web Developer who has experience developing full-stack web application at scale. He started a profitable web-development business, and spent time building business metrics applications and internal tools for a local healthcare conglomerate in South Eastern Virginia. He spends his freetime volunteering at a Local Fire Department as a Firefighter/AEMT</p>
             </div>
