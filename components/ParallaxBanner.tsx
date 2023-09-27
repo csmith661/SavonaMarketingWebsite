@@ -3,7 +3,7 @@ import {ParallaxBanner} from 'react-scroll-parallax'
 import { IlluminationAnimation } from './IlluminationAnimation'
 
 export function ParallaxBannerComponent(){
-    const companyName = "S-Savy Marketing Co."
+    const companyName = "Amp Lab Marketing"
 
 
     return(
