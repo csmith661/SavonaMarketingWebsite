@@ -1,6 +1,6 @@
 "use client"
-import {useInView} from 'react-intersection-observer'
-import {ReactNode, useEffect, useState} from 'react'
+import { ReactNode } from 'react'
+import { useInView } from 'react-intersection-observer'
 
 export function RightInViewAnimation(props: { children: ReactNode, position: string}){
 

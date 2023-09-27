@@ -1,10 +1,9 @@
-import { RightInViewAnimation } from "./RightInViewAnimation";
 import  Image  from "next/image"
+import { RightInViewAnimation } from "./RightInViewAnimation"
+import Link from "next/link"
 
-//changes
-
-export function  DiveInBlockRight(props: {entryTitle: string, description: string, buttonText: string, imagePath: string}){
-    const {entryTitle, description, imagePath, buttonText} = props
+export function  DiveInBlockRight(props: {entryTitle: string, description: string, buttonText: string, imagePath: string, buttonPath: string}){
+    const {entryTitle, description, imagePath, buttonText, buttonPath} = props
     return(<div className="flex justify-center items-center row-span-3">
           <RightInViewAnimation position=' w-2/5'>
             <div className='flex justify-center items-center'>
@@ -15,7 +14,7 @@ export function  DiveInBlockRight(props: {entryTitle: string, description: strin
             <div className="text-center">
               <h5 className='text-xl font-semibold'>{entryTitle}</h5>
               <p className='p-4'>{description}</p>
-              <button className="p-2 transition select-none active:scale-90 md:hover:scale-110 lg:hover:scale-110 md:active:translate-y-0.5 lg:active:translate-y-0.5  bg-primary text-white rounded-lg">{buttonText}</button>
+              <Link href={buttonPath}><button className="p-2 transition select-none active:scale-90 md:hover:scale-110 lg:hover:scale-110 md:active:translate-y-0.5 lg:active:translate-y-0.5  bg-primary text-white rounded-lg">{buttonText}</button></Link>
             </div>
           </RightInViewAnimation>
         </div>
