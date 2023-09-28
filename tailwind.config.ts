@@ -19,10 +19,10 @@ const config: Config = {
         "panel": "36rem"
       },
       colors: {
-        "primary": "#194872",
-        "secondary": "#F8BDB4",
-        "alternate": "#ACACAC",
-        "accent": "#622B41",
+        "primary": "#ff006b",
+        "secondary": "#b0d242",
+        "alternate": "#4e1a3d",
+        "accent": "#1f2020",
       },
       animation: {
         'fade-in': 'fadeIn 2s ease-in'

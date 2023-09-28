@@ -11,7 +11,7 @@ export function ParallaxBannerComponent(){
             
             <div className='absolute inset-0 font-bold font-mono flex items-center justify-center flex-col'>
                 <h1 className="relative text-black text-3xl lg:text-7xl">{companyName}</h1>
-                 <p className='lg:text-2xl pt-2'><IlluminationAnimation text={"Illuminate"}/> Your Business Presence</p>
+                 <p className='lg:text-2xl pt-2'>Your Brand{"'s"} <IlluminationAnimation text={"Brightest"}/> Future Starts Here!</p>
             </div>
         </ParallaxBanner>
     )

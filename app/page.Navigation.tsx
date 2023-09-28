@@ -20,7 +20,7 @@ export default function NavigationBar(){
         setOpen(false);
       }, []);
 
-    const tabs = useMemo(()=>{return [{title: "Home", path: "/"}, {title: "Services", path: "/services"}, {title: "Web Development", path: "/web-development"}, {title: "Mailers", path: "/mailers"},]},[])
+    const tabs = useMemo(()=>{return [{title: "Home", path: "/"}, {title: "Services", path: "/services"}, {title: "Technology", path: "/web-development"}, {title: "Marketing", path: "/mailers"},]},[])
 
     if(!window.width) return
     if(window.width > 640){
