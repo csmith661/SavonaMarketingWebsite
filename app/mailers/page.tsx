@@ -15,7 +15,7 @@ export default function Page(){
             <p className='text-sm text-center'>Swipe to view our recent mailer efforts!</p>
         </header>
         <section className="h-[100vh] bg-primary flex justify-center items-center">
-            <Carousel imagesArray={[item3, item4, item,  ]}/>
+            <Carousel imagesArray={[item3, item4,  ]}/>
         </section>
         <section className="bg-secondary w-full h-full p-4 flex flex-col gap-4 items-center justify-center">
             <h2>About Our Marketing Team</h2>

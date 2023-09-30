@@ -20,10 +20,10 @@ export function Carousel(props: {imagesArray: StaticImageData[]}){
     }, [emblaApi, onSelect])
 
     return(
-    <div className='relative w-full h-80'>
+    <div className='relative w-full h-screen'>
         <div className="embla overflow-hidden" ref={emblaRef}>
             <div className='embla_container flex'>
-                {imagesArray.map((image, index)=>(<div key={index} className='empla__slide flex-[0_0_100%]'><><Image className="h-80" quality={50} loading="eager" src={image} alt="portfolio example"/></></div>))}
+                {imagesArray.map((image, index)=>(<div key={index} className='empla__slide flex-[0_0_100%]'><><Image className="h-screen" quality={25} loading="eager" src={image} alt="portfolio example"/></></div>))}
             </div>
         </div>
         <div className="selectorBar h-1 absolute w-full bottom-1 flex items-center justify-center gap-4">
